@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: #6d509e ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(38, 212, 14);
+}
+
+.App-link {
+  color: #af6431;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.todo{
+  display: block;
+}
+.todo-btn{
+  margin : 0 10px;
+  height: 120px;
+  width: 500px;
+  background-color: #a7490a;
+  margin: 40px;
+  border-radius: 40px;
+}
+.prin-comp{
+  margin: 30px;
+}
+#add-btn{
+  width: 300px;
+  text-align: center;
+  margin : 10px
+}
